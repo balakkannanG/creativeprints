@@ -183,7 +183,7 @@ export function ServicesSection({ services }) {
                     WhatsApp <ArrowRight size={14} className="shrink-0" />
                   </a>
                   <a
-                    className="inline-flex min-h-9 w-full flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-lg bg-[linear-gradient(135deg,#7b39c6cc,#b472cacc)] px-2 text-[10px] font-bold text-white transition hover:bg-[linear-gradient(135deg,#7b39c6,#b472ca)]focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange max-md:gap-1 max-md:px-1.5 max-md:text-[9px]"
+                    className="inline-flex min-h-9 w-full flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-lg bg-[linear-gradient(135deg,#7b39c6,#b472ca)] px-2 text-[10px] font-bold text-white transition hover:bg-[linear-gradient(135deg,#7b39c6,#b472ca)]focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange max-md:gap-1 max-md:px-1.5 max-md:text-[9px]"
                     href="#quote"
                     aria-label={`Get a quote for ${name}`}
                   >
@@ -435,8 +435,8 @@ export function SiteFooter({ whatsappLink }) {
 export function QuickContact({ whatsappLink }) {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-30 hidden min-h-[58px] grid-cols-3 border-t border-[#e8e6e1] bg-white shadow-[0_-5px_18px_#17202c12] max-md:grid" aria-label="Quick contact">
-      <a className="flex items-center justify-center gap-[7px] text-[10px] font-bold text-[#8a501e]" href={`tel:${phoneNumber}`}><MessageCircle size={18} /><span>Call</span></a>
-      <a className="flex items-center justify-center gap-[7px] bg-[#20bf69] text-[10px] font-bold text-white" href={whatsappLink} target="_blank" rel="noreferrer"><MessageCircle size={18} /><span>WhatsApp</span></a>
+      <a className="flex items-center justify-center gap-[7px] text-[10px] font-bold text-[#8a501e]" href={`tel:${phoneNumber}`}><PhoneCall size={18} /><span>Call</span></a>
+      <a className="flex items-center justify-center gap-[7px] bg-[#20bf69] text-[10px] font-bold text-white" href={whatsappLink} target="_blank" rel="noreferrer"><img className="h-[18px] w-[18px]" src="https://cdn.simpleicons.org/whatsapp/ffffff" alt="" aria-hidden="true" /><span>WhatsApp</span></a>
       <a className="flex items-center justify-center gap-[7px] bg-[linear-gradient(135deg,#7b39c6cc,#b472cacc)] text-[10px] font-bold text-white" href="#quote"><FileUp size={18} /><span>Get a quote</span></a>
     </div>
   );
