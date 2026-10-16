@@ -40,20 +40,20 @@ function LogoGroup({ hidden = false }) {
 export default function Client() {
   return (
     <section
-      className="overflow-hidden bg-[#89919c] py-12 text-white max-md:py-10"
+      className="overflow-hidden bg-[#d6d6d6] py-12 text-[#20263a] max-md:py-10"
       aria-labelledby="client-heading"
     >
       <div className="mx-auto mb-7 w-[min(1160px,calc(100%_-_64px))] text-center max-md:w-[calc(100%_-_40px)] max-sm:w-[calc(100%_-_30px)]">
-        <p className="text-[10px] font-extrabold uppercase tracking-[1.3px] text-[#f6bd7c]">
+        <p className="text-[10px] font-extrabold uppercase tracking-[1.3px] text-violet-700">
         PRINT INSPIRATION
         </p>
         <h2
-          className="mt-2 font-heading text-[clamp(22px,3vw,30px)] font-extrabold tracking-[-.8px] text-white"
+          className="mt-2 font-heading text-[clamp(22px,3vw,30px)] font-extrabold tracking-[-.8px] text-[#20263a]"
           id="client-heading"
         >
           Great Brands Start with a Lasting Impression.
         </h2>
-        <p className="mt-2 text-[11px] text-gray-200">
+        <p className="mt-2 text-[11px] text-[#596174]">
           Explore creative branding and print ideas that help businesses express their identity across every touchpoint.
         </p>
       </div>

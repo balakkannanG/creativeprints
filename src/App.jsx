@@ -435,7 +435,7 @@ function App() {
         setMenuOpen={setMenuOpen}
         closeMenu={closeMenu}
       />
-      <main id="top" className="relative bg-[#89919c]">
+      <main id="top" className="relative bg-white">
         <HeroSection
           slides={slides}
           slide={slide}

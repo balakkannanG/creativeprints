@@ -89,7 +89,7 @@ export default function TrustSection() {
 
   return (
     <section
-      className="relative overflow-hidden bg-[#89919c] px-8 py-[78px] text-[#20263a] max-md:px-5 max-md:py-[58px] max-sm:px-[15px]"
+      className="relative overflow-hidden bg-[#d6d6d6] px-8 py-[78px] text-[#20263a] max-md:px-5 max-md:py-[58px] max-sm:px-[15px]"
       ref={sectionRef}
       aria-labelledby="trust-heading"
     >
@@ -123,9 +123,9 @@ export default function TrustSection() {
               key={label}
             >
               <span className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-1 bg-gradient-to-r from-violet-500 via-purple-500 to-fuchsia-500" />
-              <span className="absolute right-4 top-3 font-heading text-5xl font-extrabold leading-none text-violet-900/[.06]">
+              {/* <span className="absolute right-4 top-3 font-heading text-5xl font-extrabold leading-none text-violet-900/[.06]">
                 0{index + 1}
-              </span>
+              </span> */}
               <span className="mx-auto grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-violet-600 to-fuchsia-600 text-white shadow-[0_7px_16px_#7c3aed45] transition group-hover:scale-105 group-hover:shadow-[0_10px_20px_#7c3aed55]">
                 <Icon size={22} strokeWidth={1.8} />
               </span>

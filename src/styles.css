@@ -9,7 +9,7 @@
   }
 
   body {
-    @apply min-w-[320px] bg-[#89919c] font-sans text-ink antialiased;
+    @apply min-w-[320px] bg-white font-sans text-ink antialiased;
   }
 
   h1,
